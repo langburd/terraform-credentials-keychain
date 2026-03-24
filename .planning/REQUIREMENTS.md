@@ -36,10 +36,10 @@
 
 ### Quality Gates
 
-- [ ] **QA-01**: `.pre-commit-config.yaml` includes `shellcheck` hook for shell script linting
-- [ ] **QA-02**: `.pre-commit-config.yaml` includes `shfmt` hook for shell formatting
-- [ ] **QA-03**: `.pre-commit-config.yaml` includes standard hooks (trailing whitespace, end-of-file fixer, etc.)
-- [ ] **QA-04**: All hooks pass on the current codebase
+- [x] **QA-01**: `.pre-commit-config.yaml` includes `shellcheck` hook for shell script linting
+- [x] **QA-02**: `.pre-commit-config.yaml` includes `shfmt` hook for shell formatting
+- [x] **QA-03**: `.pre-commit-config.yaml` includes standard hooks (trailing whitespace, end-of-file fixer, etc.)
+- [x] **QA-04**: All hooks pass on the current codebase
 
 ## v2 Requirements
 
@@ -78,10 +78,10 @@
 | DOC-02 | Phase 1 | Complete |
 | DOC-03 | Phase 1 | Complete |
 | DOC-04 | Phase 1 | Complete |
-| QA-01 | Phase 1 | Pending |
-| QA-02 | Phase 1 | Pending |
-| QA-03 | Phase 1 | Pending |
-| QA-04 | Phase 1 | Pending |
+| QA-01 | Phase 1 | Complete |
+| QA-02 | Phase 1 | Complete |
+| QA-03 | Phase 1 | Complete |
+| QA-04 | Phase 1 | Complete |
 
 **Coverage:**
 - v1 requirements: 21 total (6 already complete)

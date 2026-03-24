@@ -6,7 +6,7 @@ The script improvements are already done. The remaining work — license attribu
 
 ## Phases
 
-- [ ] **Phase 1: Release Packaging** - License, install script, README, and quality gates — everything to make the fork releasable
+- [x] **Phase 1: Release Packaging** - License, install script, README, and quality gates — everything to make the fork releasable (completed 2026-03-24)
 
 ## Phase Details
 
@@ -25,10 +25,10 @@ The script improvements are already done. The remaining work — license attribu
 Plans:
 - [x] 01-01-PLAN.md — Update LICENSE.md (dual-copyright) and create install.sh
 - [x] 01-02-PLAN.md — Rewrite README.md for fork identity and install documentation
-- [ ] 01-03-PLAN.md — Create .pre-commit-config.yaml and verify all hooks pass
+- [x] 01-03-PLAN.md — Create .pre-commit-config.yaml and verify all hooks pass
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Release Packaging | 2/3 | In Progress|  |
+| 1. Release Packaging | 3/3 | Complete   | 2026-03-24 |
