@@ -29,10 +29,10 @@
 
 ### Documentation
 
-- [ ] **DOC-01**: README.md clearly identifies this as a fork and links to upstream
-- [ ] **DOC-02**: README.md documents install.sh as the recommended installation method
-- [ ] **DOC-03**: README.md includes manual installation steps as fallback
-- [ ] **DOC-04**: README.md documents dependencies (jq, macOS)
+- [x] **DOC-01**: README.md clearly identifies this as a fork and links to upstream
+- [x] **DOC-02**: README.md documents install.sh as the recommended installation method
+- [x] **DOC-03**: README.md includes manual installation steps as fallback
+- [x] **DOC-04**: README.md documents dependencies (jq, macOS)
 
 ### Quality Gates
 
@@ -74,10 +74,10 @@
 | INST-03 | Phase 1 | Pending |
 | INST-04 | Phase 1 | Pending |
 | INST-05 | Phase 1 | Pending |
-| DOC-01 | Phase 1 | Pending |
-| DOC-02 | Phase 1 | Pending |
-| DOC-03 | Phase 1 | Pending |
-| DOC-04 | Phase 1 | Pending |
+| DOC-01 | Phase 1 | Complete |
+| DOC-02 | Phase 1 | Complete |
+| DOC-03 | Phase 1 | Complete |
+| DOC-04 | Phase 1 | Complete |
 | QA-01 | Phase 1 | Pending |
 | QA-02 | Phase 1 | Pending |
 | QA-03 | Phase 1 | Pending |

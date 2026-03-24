@@ -24,11 +24,11 @@ The script improvements are already done. The remaining work — license attribu
 
 Plans:
 - [ ] 01-01-PLAN.md — Update LICENSE.md (dual-copyright) and create install.sh
-- [ ] 01-02-PLAN.md — Rewrite README.md for fork identity and install documentation
+- [x] 01-02-PLAN.md — Rewrite README.md for fork identity and install documentation
 - [ ] 01-03-PLAN.md — Create .pre-commit-config.yaml and verify all hooks pass
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Release Packaging | 0/3 | Not started | - |
+| 1. Release Packaging | 1/3 | In progress | - |
