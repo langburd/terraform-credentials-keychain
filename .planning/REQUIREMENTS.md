@@ -61,17 +61,33 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCRPT-01–06 | Phase 1 (already done) | Complete |
-| LIC-01–02 | Phase 1 | Pending |
-| INST-01–05 | Phase 1 | Pending |
-| DOC-01–04 | Phase 1 | Pending |
-| QA-01–04 | Phase 1 | Pending |
+| SCRPT-01 | Phase 1 | Complete |
+| SCRPT-02 | Phase 1 | Complete |
+| SCRPT-03 | Phase 1 | Complete |
+| SCRPT-04 | Phase 1 | Complete |
+| SCRPT-05 | Phase 1 | Complete |
+| SCRPT-06 | Phase 1 | Complete |
+| LIC-01 | Phase 1 | Pending |
+| LIC-02 | Phase 1 | Pending |
+| INST-01 | Phase 1 | Pending |
+| INST-02 | Phase 1 | Pending |
+| INST-03 | Phase 1 | Pending |
+| INST-04 | Phase 1 | Pending |
+| INST-05 | Phase 1 | Pending |
+| DOC-01 | Phase 1 | Pending |
+| DOC-02 | Phase 1 | Pending |
+| DOC-03 | Phase 1 | Pending |
+| DOC-04 | Phase 1 | Pending |
+| QA-01 | Phase 1 | Pending |
+| QA-02 | Phase 1 | Pending |
+| QA-03 | Phase 1 | Pending |
+| QA-04 | Phase 1 | Pending |
 
 **Coverage:**
-- v1 requirements: 16 total (6 already complete)
-- Mapped to phases: 16
+- v1 requirements: 21 total (6 already complete)
+- Mapped to phases: 21
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-24*
-*Last updated: 2026-03-24 after initial definition*
+*Last updated: 2026-03-24 after roadmap creation*
