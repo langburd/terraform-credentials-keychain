@@ -36,17 +36,17 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/koalaman/shellcheck-precommit
-    rev: v0.11.0
+    rev: 99470f5e12208ff0fb17ab81c3c494f7620a1d8d # v0.11.0
     hooks:
       - id: shellcheck
 
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.13.0-1
+    rev: e26a818fd47b4f33cefa99035d1265b0849f4b47 # v3.13.0-1
     hooks:
       - id: shfmt
 
   # Secret scanning — critical for a credentials helper
   - repo: https://github.com/gitleaks/gitleaks
-    rev: 6eaad039603a4de39fddd1cf5f727391efe9974e # v8.30.0
+    rev: 83d9cd684c87d95d656c1458ef04895a7f1cbd8e # v8.30.1
     hooks:
       - id: gitleaks
