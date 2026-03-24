@@ -20,10 +20,15 @@ The script improvements are already done. The remaining work — license attribu
   3. LICENSE.md shows both the original copyright (Alisdair McDiarmid, 2020) and the fork author (Avi Langburd, 2026)
   4. README.md clearly identifies the fork, documents `install.sh` as the install method, and lists dependencies
   5. `pre-commit run --all-files` passes with shellcheck and shfmt hooks on the current codebase
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Update LICENSE.md (dual-copyright) and create install.sh
+- [ ] 01-02-PLAN.md — Rewrite README.md for fork identity and install documentation
+- [ ] 01-03-PLAN.md — Create .pre-commit-config.yaml and verify all hooks pass
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Release Packaging | 0/TBD | Not started | - |
+| 1. Release Packaging | 0/3 | Not started | - |
