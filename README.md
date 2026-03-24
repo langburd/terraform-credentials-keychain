@@ -1,23 +1,56 @@
-# Terraform Credentials from the macOS Keychain
+# terraform-credentials-keychain
 
-`terraform-credentials-keychain` is a shell script which implements the [Terraform credentials helpers API](https://www.terraform.io/docs/internals/credentials-helpers.html), allowing you to store and retrieve credentials for services like Terraform Cloud securely in the macOS Keychain.
+A macOS Keychain-backed Terraform credentials helper. Stores tokens for
+Terraform Enterprise / HCP Terraform hostnames in the macOS Keychain instead
+of plain-text `~/.terraform.d/credentials.tfrc.json`.
 
-**Note:** Consider using [bendrucker/terraform-credentials-helper](https://github.com/bendrucker/terraform-credentials-keychain), which is more likely to be maintained.
+**Fork of [alisdair/terraform-credentials-keychain](https://github.com/alisdair/terraform-credentials-keychain)
+(original by Alisdair McDiarmid, MIT licensed). This fork is actively maintained.**
+
+## Requirements
+
+- macOS (uses the built-in `security` CLI)
+- [`jq`](https://jqlang.org/) — required for the `store` command; install via `brew install jq`
+- Terraform CLI
+
+## Installation
+
+### Recommended: install.sh
+
+```bash
+git clone https://github.com/langburd/terraform-credentials-keychain.git
+cd terraform-credentials-keychain
+bash install.sh
+```
+
+This copies the script to `~/.terraform.d/plugins/` and patches `~/.terraformrc` to enable the
+credentials helper automatically. It is safe to run more than once.
+
+### Manual Installation
+
+1. Copy `terraform-credentials-keychain` to `~/.terraform.d/plugins/`
+2. Make it executable: `chmod +x ~/.terraform.d/plugins/terraform-credentials-keychain`
+3. Add the following block to `~/.terraformrc`:
+
+   ```hcl
+   credentials_helper "keychain" {}
+   ```
+
+4. Optionally, add an empty credentials block for the public registry to prevent the helper
+   from being invoked for provider/module installs:
+
+   ```hcl
+   credentials "registry.terraform.io" {}
+   ```
 
 ## Usage
 
-1. Download the `terraform-credentials-keychain` file from this repository, and copy it to your global plugins path, `~/.terraform.d/plugins`.
-1. Edit [your Terraform CLI configuration](https://www.terraform.io/docs/commands/cli-config.html) to enable the helper:
+After installation, use standard Terraform commands to manage credentials:
 
-    ```hcl
-    credentials_helper "keychain" {}
-    ```
-1. Ensure that you have manually configured an empty block for the public registry in the same file:
+- `terraform login <hostname>` — store a token in the Keychain
+- `terraform logout <hostname>` — remove a stored token
 
-    ```hcl
-    credentials "registry.terraform.io" {}
-    ```
+## License
 
-    This ensures that the helper is not triggered for API calls which install providers and modules.
-1. Use [`terraform login`](https://www.terraform.io/docs/commands/login.html) to create a Terraform Cloud token and store it in your keychain.
-1. Later you can remove the stored token with [`terraform logout`](https://www.terraform.io/docs/commands/logout.html)
+MIT — see [LICENSE.md](LICENSE.md).
+Original work Copyright (c) 2020 Alisdair McDiarmid. Fork Copyright (c) 2026 Avi Langburd.
