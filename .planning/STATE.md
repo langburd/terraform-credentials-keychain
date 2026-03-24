@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md (README rewrite)
-last_updated: "2026-03-24T12:45:47.460Z"
+stopped_at: Completed 01-release-packaging-01-01-PLAN.md
+last_updated: "2026-03-24T12:45:59.408Z"
 last_activity: 2026-03-24
 progress:
   total_phases: 1
@@ -66,6 +66,8 @@ Recent decisions affecting current work:
 - shellcheck + shfmt for pre-commit (industry standard Bash quality gates)
 - Remove bendrucker deprecation notice entirely — the fork IS the maintained version (01-02)
 - Include credentials registry.terraform.io empty block advice as optional step in manual install (01-02)
+- [Phase 01-release-packaging]: Dual copyright: preserve original 2020 Alisdair McDiarmid line, append 2026 Avi Langburd — required for MIT fork compliance
+- [Phase 01-release-packaging]: install.sh uses grep-before-append idempotency guard for ~/.terraformrc — safe to run twice
 
 ### Pending Todos
 
@@ -77,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-24
-Stopped at: Completed 01-02-PLAN.md (README rewrite)
+Last session: 2026-03-24T12:45:59.404Z
+Stopped at: Completed 01-release-packaging-01-01-PLAN.md
 Resume file: None

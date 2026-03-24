@@ -16,16 +16,16 @@
 
 ### License
 
-- [ ] **LIC-01**: LICENSE.md retains original copyright (Alisdair McDiarmid, 2020)
-- [ ] **LIC-02**: LICENSE.md adds fork author copyright (Avi Langburd, 2026)
+- [x] **LIC-01**: LICENSE.md retains original copyright (Alisdair McDiarmid, 2020)
+- [x] **LIC-02**: LICENSE.md adds fork author copyright (Avi Langburd, 2026)
 
 ### Installation
 
-- [ ] **INST-01**: install.sh checks for macOS and `security` CLI before proceeding
-- [ ] **INST-02**: install.sh copies `terraform-credentials-keychain` to `~/.terraform.d/plugins/`
-- [ ] **INST-03**: install.sh makes the installed script executable (`chmod +x`)
-- [ ] **INST-04**: install.sh patches `~/.terraformrc` to add `credentials_helper "keychain" {}` block
-- [ ] **INST-05**: install.sh is idempotent (safe to run multiple times)
+- [x] **INST-01**: install.sh checks for macOS and `security` CLI before proceeding
+- [x] **INST-02**: install.sh copies `terraform-credentials-keychain` to `~/.terraform.d/plugins/`
+- [x] **INST-03**: install.sh makes the installed script executable (`chmod +x`)
+- [x] **INST-04**: install.sh patches `~/.terraformrc` to add `credentials_helper "keychain" {}` block
+- [x] **INST-05**: install.sh is idempotent (safe to run multiple times)
 
 ### Documentation
 
@@ -67,13 +67,13 @@
 | SCRPT-04 | Phase 1 | Complete |
 | SCRPT-05 | Phase 1 | Complete |
 | SCRPT-06 | Phase 1 | Complete |
-| LIC-01 | Phase 1 | Pending |
-| LIC-02 | Phase 1 | Pending |
-| INST-01 | Phase 1 | Pending |
-| INST-02 | Phase 1 | Pending |
-| INST-03 | Phase 1 | Pending |
-| INST-04 | Phase 1 | Pending |
-| INST-05 | Phase 1 | Pending |
+| LIC-01 | Phase 1 | Complete |
+| LIC-02 | Phase 1 | Complete |
+| INST-01 | Phase 1 | Complete |
+| INST-02 | Phase 1 | Complete |
+| INST-03 | Phase 1 | Complete |
+| INST-04 | Phase 1 | Complete |
+| INST-05 | Phase 1 | Complete |
 | DOC-01 | Phase 1 | Complete |
 | DOC-02 | Phase 1 | Complete |
 | DOC-03 | Phase 1 | Complete |
