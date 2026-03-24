@@ -15,7 +15,13 @@ of plain-text `~/.terraform.d/credentials.tfrc.json`.
 
 ## Installation
 
-### Recommended: install.sh
+### Recommended: one-liner
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/langburd/terraform-credentials-keychain/master/install.sh)
+```
+
+Or clone and run:
 
 ```bash
 git clone https://github.com/langburd/terraform-credentials-keychain.git
